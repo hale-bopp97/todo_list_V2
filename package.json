@@ -1,0 +1,32 @@
+{
+  "name": "todolist-v1",
+  "version": "1.0.0",
+  "description": "Same todo list as before but uses mongoDB on the backend for persistence.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "mongoose": "^6.9.0",
+    "nodemon": "^2.0.20"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hale-bopp97/todo_list_V2.git"
+  },
+  "keywords": [
+    "todo",
+    "mongo",
+    "ejs"
+  ],
+  "bugs": {
+    "url": "https://github.com/hale-bopp97/todo_list_V2/issues"
+  },
+  "homepage": "https://github.com/hale-bopp97/todo_list_V2#readme"
+}
